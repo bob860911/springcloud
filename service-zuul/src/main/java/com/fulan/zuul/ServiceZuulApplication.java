@@ -12,6 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages="com.fulan.zuul")
 public class ServiceZuulApplication {
 	public static void main(String[] args) {
+		System.out.println("sb");
 		SpringApplication.run(ServiceZuulApplication.class, args);
 	}
 }
